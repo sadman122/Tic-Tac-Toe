@@ -1,6 +1,5 @@
 let boxes = document.querySelectorAll('.box');
 let resetBtn = document.querySelector('.js-reset-button');
-let newGameBtn = document.querySelector('.js-new-game-button');
 let msgContainer = document.querySelector('.message-container');
 let msg = document.querySelector('.message');
 
@@ -17,7 +16,6 @@ let winPatterns = [
     [6, 7, 8]
 ];
 
-newGameBtn.addEventListener('click', resetGame);
 resetBtn.addEventListener('click', resetGame);
 
 boxes.forEach((box) => {
