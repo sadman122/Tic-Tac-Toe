@@ -59,3 +59,7 @@ body{
 .hide{
     display: none;
 }
+
+.O-color{
+    color: green;
+}

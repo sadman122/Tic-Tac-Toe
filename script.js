@@ -24,8 +24,10 @@ boxes.forEach((box) => {
     box.addEventListener('click', () => {
         if(turnO){
             box.innerText = 'O';
+            box.classList.add('O-color');
             turnO = false;
         }else{
+            box.classList.remove('O-color');
             box.innerText = 'X';
             turnO = true;
         }
