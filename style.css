@@ -40,4 +40,22 @@ body{
     font-size: 1.25rem;
     border-radius: 1rem;
     border: none;
+    margin-right: 1rem;
+}
+
+.new-game-button{
+    padding: 1.5rem;
+    font-size: 1.25rem;
+    border-radius: 1rem;
+    border: none;
+    margin-left: 1rem;
+}
+
+.message{
+    color: ghostwhite;
+    font-size: 1.3rem;
+}
+
+.hide{
+    display: none;
 }
